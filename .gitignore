@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/.vscode
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/build
+/build1
+
+# Zip & Rar File
+*.zip
+*.rar
+*.sql
+*.conf
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+/.env
+/.env.local
+/.env.prod
+/.env.dev
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
